@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(45deg, orange, orangered);
+}
+
+#calculator{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(5, 5, 46);
+    margin:0 auto;
+    box-shadow: 10px 10px 15px;
+    position: relative;
+    top:40px;
+    border-radius: 10px;
+}
+#history{
+    height: 20%;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+}
+#history-value{
+    font-size: 16px;
+    font-weight: 100px;
+    padding-top: 10px;
+}
+#output-value{
+    font-size: 50px;
+    font-weight: 700;
+    color: tomato;
+}
+#keyboard{
+    height: 80%;
+
+}
+#keyboard> .number, #keyboard> .operator{
+    float: left;
+    height: 25%;
+    width: 33.33%;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid black;
+} 
